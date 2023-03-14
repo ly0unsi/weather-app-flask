@@ -199,7 +199,7 @@
             let html=''
             $.get( url, function( {results} ) {
             
-            if(results)  $('.suggest').show()
+            if(results.length>0)  $('.suggest').show() ; else $('.suggest').hide()
            
               results.forEach(e => {
                

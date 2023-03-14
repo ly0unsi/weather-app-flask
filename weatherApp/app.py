@@ -1,4 +1,3 @@
-from model.main import predict
 from flask import Flask, render_template, request, jsonify
 from flask_wtf.csrf import CSRFProtect
 import requests
