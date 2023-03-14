@@ -36,7 +36,7 @@ li {
     width: 400px;
     background: #f3f3f3;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    position: absolute;
+    position: fixed;
     height: 100%;
     top: 0;
     z-index: 99;
