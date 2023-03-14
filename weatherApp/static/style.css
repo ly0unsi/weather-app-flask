@@ -243,7 +243,7 @@ sup {
 }
 
 .sidebar {
-    height: 100vh;
+    height: fit-content;
 }
 
 .leaflet-container {
@@ -261,6 +261,10 @@ sup {
 
     #sidebar {
         width: 324px;
+    }
+
+    .sidebar {
+        margin-top: 9px;
     }
 
     .temp {
