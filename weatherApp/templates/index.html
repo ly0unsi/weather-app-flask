@@ -35,22 +35,18 @@
               <input autocomplete="off" id="searchInput" type="text" placeholder="Enter your location here">
               <div class="suggest">
                 <ul id="suggest">
-                  <li>Madrid</li>
-                  <li>Madrid</li>
-                  <li>Madrid</li>
-                  <li>Madrid</li>
+                
                 </ul>
               </div>
               <div id="map"></div>
             </div>
           </div>
-          
-         
-          <div class="row">
+
+          <div style="align-items: center;" class="d-flex">
             <div class="col-md-8 mt-3">
-              <span  id="city"></span>
+              <span  id="city">Loading..</span>
               <p id="desc"> </p>
-              <span class="main_temp"></span>
+              <span class="main_temp">Loading..</span>
             </div>
             <div class="col-md-4 main_weather_icon_container">
               <img class="main_weather_icon"  alt="">
@@ -171,9 +167,9 @@
               $('#sidebar').toggleClass('visible');
           })
         });
-        $('#searchInput').on('click',()=>{
-            $("#map").css({"visibility": "visible"});
-        });
+        // $('#searchInput').on('click',()=>{
+        //     $("#map").css({"visibility": "visible"});
+        // });
         $('#searchInput').on('input',(e)=>{
           autocomplete(e.target.value)
         })

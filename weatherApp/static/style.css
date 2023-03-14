@@ -76,7 +76,6 @@ li {
 }
 
 #map {
-    visibility: hidden;
     height: 400px;
     margin-top: 10px;
     border-radius: 16px;
@@ -262,6 +261,14 @@ sup {
 
     #sidebar {
         width: 324px;
+    }
+
+    .temp {
+        display: none;
+    }
+
+    .main_weather_icon {
+        width: 206px;
     }
 }
 
