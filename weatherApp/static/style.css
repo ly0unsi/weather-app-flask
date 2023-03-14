@@ -242,6 +242,10 @@ sup {
     position: relative;
 }
 
+.leaflet-control-attribution {
+    display: none;
+}
+
 .sidebar {
     height: fit-content;
 }
