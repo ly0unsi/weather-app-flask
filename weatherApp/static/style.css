@@ -292,7 +292,10 @@ sup {
 
 
     .main_weather_icon {
-        width: 142px;
+        width: 166px;
+        position: absolute;
+        right: 5%;
+        top: 14%;
     }
 }
 
