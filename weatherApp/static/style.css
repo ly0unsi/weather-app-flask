@@ -6,7 +6,7 @@ body {
 /* width */
 ::-webkit-scrollbar {
     width: 3px;
-    border-radius: 10px;
+    border-radius: 29px;
 }
 
 /* Track */
@@ -78,14 +78,14 @@ li {
 #map {
     height: 400px;
     margin-top: 10px;
-    border-radius: 16px;
+    border-radius: 29px;
     border: #0671cc 1px solid;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #0671cc;
-    border-radius: 10px;
+    border-radius: 29px;
 }
 
 /* Handle on hover */
@@ -127,7 +127,7 @@ li {
 .todays_forecast {
     background: #eaecef;
     padding: 18px;
-    border-radius: 22px;
+    border-radius: 29px;
 }
 
 .todays_forecast_card>img {
@@ -135,7 +135,7 @@ li {
 }
 
 #desc {
-    color: #5a5a5a;
+    color: #e9e9e9;
 }
 
 .todays_forecast_card:nth-child(6) {
@@ -178,16 +178,15 @@ svg {
 }
 
 .side_card_wheather>img {
-    width: 45px;
+    width: 63px;
 }
 
 .grid-layout {
     list-style: none;
-
     display: grid;
-    grid-gap: 10%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    grid-gap: 24%;
+    padding-top: 7px;
+    padding-bottom: 7px;
     border-bottom: #d1d1d1 1px solid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -234,8 +233,28 @@ sup {
     outline: none;
     width: 100%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 29px;
     padding-left: 32px;
+}
+
+.sidebar-btn_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    width: auto;
+    cursor: pointer;
+}
+
+.sidebar-btn_container>svg {
+    width: 21px;
+}
+
+#acquisitions {
+    display: block !important;
+    box-sizing: border-box !important;
+    height: 241px !important;
+
 }
 
 .search_field {
@@ -260,7 +279,7 @@ sup {
 
 @media only screen and (max-width: 600px) {
     .desk_only {
-        display: none;
+        display: none !important;
     }
 
     #sidebar {
@@ -271,9 +290,6 @@ sup {
         margin-top: 9px;
     }
 
-    .temp {
-        display: none;
-    }
 
     .main_weather_icon {
         width: 142px;
@@ -282,4 +298,23 @@ sup {
 
 .col-md-1>svg {
     width: 18px;
+}
+
+.footer {
+    font-weight: 400;
+    color: #005095;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.main_card {
+    align-items: center;
+    background: rgb(6, 113, 204);
+    background: linear-gradient(29deg, rgba(6, 113, 204, 1) 0%, rgba(0, 201, 242, 1) 100%);
+    padding: 12px;
+    color: #f1f6ff !important;
+    border-radius: 29px;
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
